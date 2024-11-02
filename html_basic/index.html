@@ -4,6 +4,21 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My First Cool Webpage</title>
+    <style>
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+        th, td {
+            border: 1px solid #ddd;
+            padding: 8px;
+            text-align: left;
+        }
+        th {
+            background-color: #f2f2f2;
+        }
+    </style>
 </head>
 <body>
     <header>
@@ -34,6 +49,40 @@
             
             <h2>Contact Me</h2>
             <p>If you want to connect, feel free to reach out! I'm always open to new opportunities and collaborations.</p>
+
+            <!-- New container for the table of learners -->
+            <h2>Information About Some Learners</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Name</th>
+                        <th>Age</th>
+                        <th>Country</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>John</td>
+                        <td>25</td>
+                        <td>USA</td>
+                    </tr>
+                    <tr>
+                        <td>Emily</td>
+                        <td>28</td>
+                        <td>Canada</td>
+                    </tr>
+                    <tr>
+                        <td>Michael</td>
+                        <td>32</td>
+                        <td>Australia</td>
+                    </tr>
+                    <tr>
+                        <td>Sophia</td>
+                        <td>21</td>
+                        <td>UK</td>
+                    </tr>
+                </tbody>
+            </table>
         </article>
         
         <aside>
